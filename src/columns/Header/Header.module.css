@@ -1,0 +1,34 @@
+.Header {
+    background-image: url('../../assets/images/hero_bg.png');
+    width: 100%;
+    background-size: cover;
+    height: 140vh;
+}
+
+.Header img {
+    width: 100px;
+    height: 100px;
+}
+
+.hero {
+    color: white;
+    display: grid;
+    grid-template-columns: 1.5fr 1fr;
+    column-gap: 20px;
+    padding-top: 5rem;
+}
+
+.hero_text h1 {
+    text-transform: uppercase;
+    font-size: 3.7rem;
+}
+.hero_text p {
+    padding: 1rem 0;
+    font-size: 1.2rem;
+}
+
+.OS {
+    padding: 0.6rem;
+    display: flex;
+    column-gap: 2rem;
+}

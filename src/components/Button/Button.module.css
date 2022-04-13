@@ -1,0 +1,13 @@
+.Button {
+    padding: 1rem 1rem;
+    background: linear-gradient(#1057AB, #033675);
+    text-transform: uppercase;
+    font-weight: 500;
+    border-radius: 0.4rem;
+    text-align: center;
+    width: 9rem;
+}
+
+.Button:hover {
+    cursor: pointer;
+}

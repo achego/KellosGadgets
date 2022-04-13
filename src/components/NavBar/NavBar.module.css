@@ -1,0 +1,38 @@
+.NavBar {
+    height: var(--appbar-height);
+    color: white;
+}
+
+.NavBarC {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    font-size: 3.6rem;
+    font-weight: bold;
+}
+
+.NavBarC nav {
+    display: flex;
+    align-items: center;
+}
+
+.NavBarC ul {
+    display: flex;
+    text-transform: uppercase;
+    font-weight: 500;
+}
+
+.NavBar ul li {
+    margin-left: 1rem;
+}
+
+.NavBar ul li:first-child {
+    padding-left: 0;
+}
+
+.btn {
+    margin-left: 3rem;
+}
